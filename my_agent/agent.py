@@ -7,7 +7,8 @@ from my_agent.utils.state import AgentState
 
 # Define the config
 class GraphConfig(TypedDict):
-    model_name: Literal["anthropic", "openai"]
+#    model_name: Literal["anthropic", "openai", "openrouter"]
+    model_name: Literal["openrouter"]
 
 
 # Define a new graph
